@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #fff;
+    color: #080808;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: royalblue;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(244, 192, 129);
+    font-size: 1.0rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 170px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.7rem;
+}
+
+.rightsection img {
+    width: 130%;
+}
+
+.blue {
+    color: rgb(79, 0, 175);
+}
+
+#element {
+    color: rgb(79, 0, 175);
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr{
+    height: 1.5px;
+    margin: 10px 10px;
+    background: rgb(122, 79, 175);
+    border: 0px
+}
+
+.secondsection h1{
+    font-size: 1.9rem;
+}
+
+.text-grey{
+    color: rgb(41, 40, 40);
+
+}
+
+.secondsection .box{
+    background: rgb(122, 79, 175);
+    width: 80vw;
+    height: 2px;
+    margin: 170px 0px 0px 0px;
+    display: flex;
+
+}
+.secondsection .vertical{
+    height: 80px;
+    width: 2px;
+    background: rgb(122, 79, 175);
+    margin: 0px 120px;
+}
+.image-top{
+    position: relative;
+    left: -100px;
+    right: 1px;
+    top: -185px;
+}
+
+.vertical-title{
+    position: relative;
+    top: -115px;
+    left: -60px;
+    width: 130px;
+    font-size: 1.5rem;
+
+}
+.vertical-desc{
+    position: relative;
+    top: -95px;
+    left: -25px;
+    width: 190px;
+    font-size: 0.9rem;
+
+}
+.vertical-desc b{
+    color: rgb(58, 54, 54);
+}
+.footer{
+    display: flex;
+    background-color: #dedede;
+    height: 100px;
+    margin: 550px 0px -30px ;
+    justify-content: space-evenly;
+}
+.footer > div{
+    width: 3000px;
+}
+.footer-first{
+    padding: 20px 50px;
+    color: rgb(58, 53, 47);
+}
+.footer ul li{
+    list-style: none;
+
+}
+.footer-rights{
+    text-align: center;
+
+}
+.leftsection .btn{
+    padding: 12px;
+    color: rgb(79, 0, 175);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 2px solid rgb(79, 0, 175);
+}

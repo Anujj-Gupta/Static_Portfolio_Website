@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=dedvice-width, initial-scale=1.0">
+    <title>Anuj's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anuj's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Portfolio</a></li>
+                    <li><a href="/">Say Hello</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is<span class="blue"> Anuj</span>
+                <div>and I am passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</div>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="images/backg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="images/developer2.webp" alt="">
+                    <div class="vertical-title">
+                        <b>Full Stack Developer</b>
+                    </div>
+                    <div class="vertical-desc">
+                        Build a website <b>'PG Life'</b>
+                        for my 1st year summer project.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="images/developer.png" alt="">
+                    <div class="vertical-title">
+                        <b>Coding skills</b>
+                    </div>
+                    <div class="vertical-desc">
+                        Done <b>'PYTHON Basic + Advance' </b> and completed varios projects of <b>'GUI'</b> using
+                        tkinter.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="images/developer3.webp" alt="">
+                    <div class="vertical-title">
+                        <b>languages known</b>
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>JAVA</li>
+                            <li>PYTHON</li>
+                            <li>WEB D</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="images/developer4.webp" alt="">
+                    <div class="vertical-title">
+                        <b>Projects</b>
+                    </div>
+                    <div class="vertical-desc">
+                        Worked on Menudriven module of
+                        <b>'Paytm' & 'Flipkart'</b> using <b>JAVA</b> as high scholl board project.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images/developer5.webp" alt="">
+                    <div class="vertical-title">
+                        <b>Certifications</b>
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Internshala<b> </b><br><b>'Web Development'</b></li>
+                        </ul>
+                        <ul>
+                            <li>CodeTantra<b> </b><br><b>'Python'</b></li>
+                        </ul>
+                        <ul>
+                            <li>Coursera<b> </b>
+                                <br>- <b>'Python Basics'</b>
+                                <br>- <b>'Python for DS and AI</b>
+                                <br>- <b>'Introduction to AI'</b>
+                                <br>- <b>'Human centered Design for Inclusive Innovation'</b>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1>Signing off : Anuj's Developer Portfolio </h1>
+            </div>
+        </div>
+        <div class='footer-rights'>
+            Anuj's Portfolio | &#169 All rights reserved
+        </div>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'UI/UX Designer.', 'Coder.'],
+            typeSpeed: 60,
+        });
+    </script>
+
+</body>
+
+</html>
